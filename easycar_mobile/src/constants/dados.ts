@@ -1,0 +1,57 @@
+export const json_ride = {
+  ride_id: 1,
+  passenger_user_id: 1,
+  passenger_name: "João",
+  passenger_phone: "(11) 99999-9999",
+  pickup_address: "Av Paulista, 1000 - São Paulo",
+  pickup_date: "2023-05-01",
+  dropoff_address: "Av Paulista, 2000 - São Paulo",
+  status: "Aguardando Confirmação",
+  driver_user_id: 2,
+  driver_name: "Maria",
+  latitude: -22.9006,
+  longitude: -47.0647,
+};
+
+export const json_rides = [
+  {
+    ...json_ride,
+    ride_id: 2,
+    passenger_user_id: 3,
+    passenger_name: "Pedro",
+    latitude: -22.9006,
+    longitude: -47.0647,
+  },
+  {
+    ...json_ride,
+    ride_id: 3,
+    passenger_user_id: 4,
+    passenger_name: "Ana",
+    latitude: -22.9006,
+    longitude: -47.0647,
+  },
+  {
+    ...json_ride,
+    ride_id: 4,
+    passenger_user_id: 5,
+    passenger_name: "Carlos",
+    latitude: -22.9006,
+    longitude: -47.0647,
+  },
+  {
+    ...json_ride,
+    ride_id: 5,
+    passenger_user_id: 6,
+    passenger_name: "Lucas",
+    latitude: -22.9006,
+    longitude: -47.0647,
+  },
+  {
+    ...json_ride,
+    ride_id: 6,
+    passenger_user_id: 7,
+    passenger_name: "Fernanda",
+    latitude: -22.9006,
+    longitude: -47.0647,
+  },
+];
