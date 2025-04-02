@@ -1,13 +1,1 @@
-# servidor
-servidor/node_modules/
-servidor/yarn.lock
-
-# easycar-mobile
-easycar-mobile/node_modules/
-easycar-mobile/expo/
-easycar-mobile/dist/
-easycar-mobile/web-build/
-easycar-mobile/expo-env.d.ts
-easycar-mobile/yarn.lock
-
 .qodo
